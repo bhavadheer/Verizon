@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DC-RepairMaintenance", "DC-RepairMaintenance\DC-RepairMaintenance.csproj", "{88F1358D-0DBC-4569-AD12-D75EDFD839BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogicLayer", "BusinessLogicLayer\BusinessLogicLayer.csproj", "{41142A9E-4017-4B7C-B758-B2E3CC5B2E40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{0400AB1F-84CE-4FF2-9E69-DF41A73A6503}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{D15E8C9B-DA43-4835-9457-0EA5807DF0AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3rdPartyDLL", "3rdPartyDLL", "{A7EBE5F9-6A5F-4173-96C7-FEE8614696DE}"
+	ProjectSection(SolutionItems) = preProject
+		3rdPartyDLL\AjaxControlToolkit.dll = 3rdPartyDLL\AjaxControlToolkit.dll
+		3rdPartyDLL\Microsoft.Practices.ServiceLocation.dll = 3rdPartyDLL\Microsoft.Practices.ServiceLocation.dll
+		3rdPartyDLL\Microsoft.Practices.Unity.dll = 3rdPartyDLL\Microsoft.Practices.Unity.dll
+		3rdPartyDLL\Microsoft.Practices.Unity.Interception.dll = 3rdPartyDLL\Microsoft.Practices.Unity.Interception.dll
+		3rdPartyDLL\Microsoft.ReportViewer.Common.dll = 3rdPartyDLL\Microsoft.ReportViewer.Common.dll
+		3rdPartyDLL\Microsoft.ReportViewer.WebForms.dll = 3rdPartyDLL\Microsoft.ReportViewer.WebForms.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88F1358D-0DBC-4569-AD12-D75EDFD839BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88F1358D-0DBC-4569-AD12-D75EDFD839BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88F1358D-0DBC-4569-AD12-D75EDFD839BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88F1358D-0DBC-4569-AD12-D75EDFD839BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41142A9E-4017-4B7C-B758-B2E3CC5B2E40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41142A9E-4017-4B7C-B758-B2E3CC5B2E40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41142A9E-4017-4B7C-B758-B2E3CC5B2E40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41142A9E-4017-4B7C-B758-B2E3CC5B2E40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0400AB1F-84CE-4FF2-9E69-DF41A73A6503}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0400AB1F-84CE-4FF2-9E69-DF41A73A6503}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0400AB1F-84CE-4FF2-9E69-DF41A73A6503}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0400AB1F-84CE-4FF2-9E69-DF41A73A6503}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D15E8C9B-DA43-4835-9457-0EA5807DF0AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D15E8C9B-DA43-4835-9457-0EA5807DF0AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D15E8C9B-DA43-4835-9457-0EA5807DF0AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D15E8C9B-DA43-4835-9457-0EA5807DF0AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.ExceptionHandling.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Logging.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.ExceptionHandling.Logging.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Data.6.0.1304.0\lib\NET45
+	EndGlobalSection
+EndGlobal
